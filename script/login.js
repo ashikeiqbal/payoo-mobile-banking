@@ -5,6 +5,9 @@ document.getElementById("login-btn")
         // get the mobile number input
         const numberInput = document.getElementById("input-number");
         const contactNumber = numberInput.value;
+    
+        
+        
         // console.log(contactNumber)
 
         // get the pin
@@ -19,5 +22,8 @@ document.getElementById("login-btn")
         else{
             alert("Login Failed");
             return;
+            
         }
     })
+
+    
